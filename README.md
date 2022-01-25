@@ -9,9 +9,15 @@
 Answer the following in this file:
 
 * How many unique users are in the data?
+  There are 48 unique users.
+
 * How many salts did you create?
+  Technically only 48 salts were created. However, using the program that I created, I can technically create 52 to the 5th power salts. (See Salty.py)
+
 * How many possible combinations will I need to try to figure out the secret ID
   of all students (assume I know all potential secret IDs)
+  
+
 * Instead of salts, if you were to use a nonce (unique number for each hashed
   field) how many possible combinations would I need to try?
 * Given the above, if this quiz data were *actual* class data, say for example

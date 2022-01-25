@@ -1,4 +1,4 @@
-#NOTE RUNNING THIS CODE AT THIS TIME WILL CHANGE THE SALT CURRENTLY ASSIGNED TO EACH USER
+#NOTE RUNNING THIS CODE AT THIS TIME WILL CHANGE THE SALT CURRENTLY ASSIGNED TO EACH USER IF PRESALTED HASHBROWNS ALREADY EXISTS
 #This is a quick and dirty program to salt any number of unique users using the same csv format as provided in the lab. 
 #Code for working with the CSV files was taken from https://www.geeksforgeeks.org/working-csv-files-python/
 #This code is for potential use in the future for further labs or for personal tweaking later. 
@@ -10,7 +10,7 @@ import string
 import random
 
 infilename = "quiz_data.csv"
-outfilename = "presalted-data.csv"
+outfilename = "presalted_hashbrowns.csv"
 
 
 fields = []
